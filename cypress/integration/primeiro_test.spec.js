@@ -12,4 +12,12 @@ describe('Calculadora de imposto', () => {
         cy.get('[name=sexo]').should('have.value', '-');
         cy.get('[name=salario]').should('have.text', '');
     });
+
+    it('deve calcular o imposto devido', () => {
+        // preencha todos os campos
+
+        // clique no botao calcular
+
+        // verifique (usando .should) a saída retornada com o calculo do imposto devido
+    });
 });
